@@ -1,8 +1,5 @@
-package com.ddcx.dubbolearn.provider;
+package com.ddcx.dubbolearn.helloworld.provider;
 
-import com.ddcx.dubbolearn.consumer.DemoConsumer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
@@ -16,6 +13,6 @@ public class DemoProvider {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("dubbo-helloworld-provider.xml");
         applicationContext.start();
-        System.in.read();
+        System.in.read(); //按任意键退出
     }
 }

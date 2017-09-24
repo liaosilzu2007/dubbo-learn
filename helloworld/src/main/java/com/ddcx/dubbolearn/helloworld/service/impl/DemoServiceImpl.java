@@ -1,7 +1,7 @@
-package com.ddcx.dubbolearn.service.impl;
+package com.ddcx.dubbolearn.helloworld.service.impl;
 
-import com.ddcx.dubbolearn.entity.User;
-import com.ddcx.dubbolearn.service.DemoService;
+import com.ddcx.dubbolearn.helloworld.entity.User;
+import com.ddcx.dubbolearn.helloworld.service.DemoService;
 
 /**
  * Created by liaosi on 2017/9/22.

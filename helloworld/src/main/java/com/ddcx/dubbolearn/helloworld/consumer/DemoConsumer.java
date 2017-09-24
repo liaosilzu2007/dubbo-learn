@@ -1,7 +1,7 @@
-package com.ddcx.dubbolearn.consumer;
+package com.ddcx.dubbolearn.helloworld.consumer;
 
-import com.ddcx.dubbolearn.entity.User;
-import com.ddcx.dubbolearn.service.DemoService;
+import com.ddcx.dubbolearn.helloworld.entity.User;
+import com.ddcx.dubbolearn.helloworld.service.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

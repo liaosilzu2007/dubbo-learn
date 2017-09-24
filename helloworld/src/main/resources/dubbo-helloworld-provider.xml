@@ -15,8 +15,8 @@
     <dubbo:protocol name="dubbo" port="20880"/>
 
     <!--声明需要暴露的服务端口-->
-    <dubbo:service interface="com.ddcx.dubbolearn.service.DemoService" ref="demoService"/>
+    <dubbo:service interface="com.ddcx.dubbolearn.helloworld.service.DemoService" ref="demoService"/>
 
     <!--配置要加入容器的bean-->
-    <bean id="demoService" class="com.ddcx.dubbolearn.service.impl.DemoServiceImpl"></bean>
+    <bean id="demoService" class="com.ddcx.dubbolearn.helloworld.service.impl.DemoServiceImpl"></bean>
 </beans>
