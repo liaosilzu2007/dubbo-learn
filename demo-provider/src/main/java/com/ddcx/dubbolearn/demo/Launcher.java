@@ -4,11 +4,9 @@ import com.ddcx.dubbolearn.demo.util.BeanFactoryUtil;
 import com.ddcx.dubbolearn.demo.util.SystemDetails;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.net.InetAddress;
-import java.util.function.Consumer;
 
 /**
  * Created by liaosi on 2017/9/24.
