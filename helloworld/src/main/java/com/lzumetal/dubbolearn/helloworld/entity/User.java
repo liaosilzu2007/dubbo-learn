@@ -1,4 +1,4 @@
-package com.ddcx.dubbolearn.helloworld.entity;
+package com.lzumetal.dubbolearn.helloworld.entity;
 
 import java.io.Serializable;
 

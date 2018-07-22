@@ -1,4 +1,4 @@
-package com.ddcx.dubbolearn.helloworld.provider;
+package com.lzumetal.dubbolearn.helloworld.provider;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

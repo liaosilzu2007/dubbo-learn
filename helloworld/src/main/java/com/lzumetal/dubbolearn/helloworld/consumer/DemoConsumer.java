@@ -1,7 +1,7 @@
-package com.ddcx.dubbolearn.helloworld.consumer;
+package com.lzumetal.dubbolearn.helloworld.consumer;
 
-import com.ddcx.dubbolearn.helloworld.entity.User;
-import com.ddcx.dubbolearn.helloworld.service.DemoService;
+import com.lzumetal.dubbolearn.helloworld.entity.User;
+import com.lzumetal.dubbolearn.helloworld.service.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

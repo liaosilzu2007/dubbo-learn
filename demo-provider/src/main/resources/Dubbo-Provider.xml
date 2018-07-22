@@ -16,5 +16,6 @@
 
     <!--声明需要暴露的服务接口-->
     <dubbo:service timeout="3000" interface="com.ddcx.dubbolearn.demo.service.UserService" ref="userService"/>
+
     
 </beans>

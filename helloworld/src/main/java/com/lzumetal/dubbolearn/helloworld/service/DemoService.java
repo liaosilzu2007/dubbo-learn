@@ -1,6 +1,6 @@
-package com.ddcx.dubbolearn.helloworld.service;
+package com.lzumetal.dubbolearn.helloworld.service;
 
-import com.ddcx.dubbolearn.helloworld.entity.User;
+import com.lzumetal.dubbolearn.helloworld.entity.User;
 
 /**
  * Created by liaosi on 2017/9/22.
