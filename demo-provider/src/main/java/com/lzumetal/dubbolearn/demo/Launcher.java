@@ -26,7 +26,7 @@ public class Launcher {
         SystemDetails.outputDetails();
         System.out.println("=======================");
 
-        getLocalip();
+        getLocalIp();
         // 初始化spring
         log.info("开始初始化core服务");
         ClassPathXmlApplicationContext applicationContext = (ClassPathXmlApplicationContext) BeanFactoryUtil.getContext();
@@ -42,7 +42,7 @@ public class Launcher {
     /**
      * 取得本机ip地址 注意：Spring RmiServiceExporter取得本机ip的方法：InetAddress.getLocalHost()
      */
-    private static void getLocalip() {
+    private static void getLocalIp() {
         try {
             System.out.println("服务暴露的ip: " + InetAddress.getLocalHost().getHostAddress());
         } catch (Exception e) {

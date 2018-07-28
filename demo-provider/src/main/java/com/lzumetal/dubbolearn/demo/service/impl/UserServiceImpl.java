@@ -17,12 +17,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean login(String username, String password) {
-        log.info("用户登录：[username:{}, password:{}]", username, password);
+        log.error("用户登录：[username:{}, password:{}]", username, password);
         if (username != null && password != null && username.equals(password)) {
-            log.info("用户校验通过。[username:{}]", username);
+            log.error("用户校验通过。[username:{}]", username);
             return true;
         }
-        log.info("用户校验失败！[username:{}]", username);
+        log.error("用户校验失败！[username:{}]", username);
         return false;
     }
 
