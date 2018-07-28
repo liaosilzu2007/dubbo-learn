@@ -1,4 +1,4 @@
-package com.ddcx.dubbolearn.demo.util;
+package com.lzumetal.dubbolearn.demo.util;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

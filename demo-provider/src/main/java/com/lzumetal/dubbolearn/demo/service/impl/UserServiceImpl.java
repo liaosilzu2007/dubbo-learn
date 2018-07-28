@@ -1,6 +1,6 @@
-package com.ddcx.dubbolearn.demo.service.impl;
+package com.lzumetal.dubbolearn.demo.service.impl;
 
-import com.ddcx.dubbolearn.demo.service.UserService;
+import com.lzumetal.dubbolearn.demo.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

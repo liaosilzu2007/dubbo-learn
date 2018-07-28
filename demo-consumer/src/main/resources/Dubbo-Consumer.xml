@@ -13,7 +13,7 @@
     <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <!--生成远程代理服务，调用接口的方法-->
-    <dubbo:reference interface="com.ddcx.dubbolearn.demo.service.UserService" id="userService"/>
+    <dubbo:reference interface="com.lzumetal.dubbolearn.demo.service.UserService" id="userService"/>
 
 
 </beans>

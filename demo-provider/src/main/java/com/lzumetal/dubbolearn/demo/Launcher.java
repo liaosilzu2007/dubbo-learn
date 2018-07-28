@@ -1,7 +1,7 @@
-package com.ddcx.dubbolearn.demo;
+package com.lzumetal.dubbolearn.demo;
 
-import com.ddcx.dubbolearn.demo.util.BeanFactoryUtil;
-import com.ddcx.dubbolearn.demo.util.SystemDetails;
+import com.lzumetal.dubbolearn.demo.util.BeanFactoryUtil;
+import com.lzumetal.dubbolearn.demo.util.SystemDetails;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

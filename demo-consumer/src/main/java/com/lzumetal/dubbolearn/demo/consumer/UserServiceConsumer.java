@@ -1,6 +1,6 @@
-package com.ddcx.dubbolearn.demo.consumer;
+package com.lzumetal.dubbolearn.demo.consumer;
 
-import com.ddcx.dubbolearn.demo.service.UserService;
+import com.lzumetal.dubbolearn.demo.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;

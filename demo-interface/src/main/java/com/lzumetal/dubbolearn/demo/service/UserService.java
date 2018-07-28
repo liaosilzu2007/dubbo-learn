@@ -1,4 +1,4 @@
-package com.ddcx.dubbolearn.demo.service;
+package com.lzumetal.dubbolearn.demo.service;
 
 /**
  * Created by liaosi on 2017/9/24.
